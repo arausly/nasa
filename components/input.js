@@ -19,7 +19,7 @@ export default class Input extends React.Component{
                      <input type = "text" placeholder = "Fire Object" className = "form-control" ref = {node => this.firobj = node} />
                      <input type = "text" placeholder ="Trapped People" className = "form-control" ref = {node => this.Trappl = node} />
                      <div>
-                       <input type ="button" className = "btn btn-primary btn-lg btn-md" value = "Submit" />
+                       <input type ="button" className = "btn btn-primary btn-lg btn-md" value = "Submit" onclick = {this.handleChange()} />
                      </div>
                    </div>
               </div>
