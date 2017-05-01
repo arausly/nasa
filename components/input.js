@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class Input extends React.Component{
+    
+    
      render(){
          return(
               <div className = "input_parent col-lg-4">
@@ -17,7 +19,7 @@ export default class Input extends React.Component{
                      <input type = "text" placeholder = "Fire Object" className = "form-control" ref = {node => this.firobj = node} />
                      <input type = "text" placeholder ="Trapped People" className = "form-control" ref = {node => this.Trappl = node} />
                      <div>
-                       <input type ="button" className = "btn btn-primary btn-lg btn-md" value = "Submit"/>
+                       <input type ="button" className = "btn btn-primary btn-lg btn-md" value = "Submit" />
                      </div>
                    </div>
               </div>
