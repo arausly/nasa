@@ -1,0 +1,30 @@
+.input_parent{
+    border:1px solid grey;
+    border-radius:8px;
+    padding:20px;
+    margin-top:30px;
+    margin-left:15px;
+}
+
+.form-control{
+    margin-bottom:10px; 
+ 
+}
+
+label{
+    margin-right:30px;
+}
+
+input[type*="tt"]{
+    transform:translateX(150px);
+}
+.log_parent {
+    margin-top:30px;
+}
+.log_parent th{
+     border:1px solid grey;
+     padding:10px;
+     margin:10px;
+     border-collapse:collapse; 
+     width:250px;
+}
